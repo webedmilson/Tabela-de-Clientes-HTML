@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Clientes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .table-container {
+            margin: 0 auto;
+            max-width: 800px;
+            overflow-x: auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0;
+        }
+
+        thead {
+            background-color: #333;
+            color: #fff;
+        }
+
+        th, td {
+            padding: 10px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #f9f9f9;
+        }
+
+        tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        @media (max-width: 600px) {
+            th, td {
+                font-size: 14px;
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Lista de Clientes</h1>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Telefone</th>
+                    <th>Cidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>João Silva</td>
+                    <td>joao.silva@email.com</td>
+                    <td>(11) 1234-5678</td>
+                    <td>São Paulo</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Maria Oliveira</td>
+                    <td>maria.oliveira@email.com</td>
+                    <td>(21) 8765-4321</td>
+                    <td>Rio de Janeiro</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Carlos Pereira</td>
+                    <td>carlos.pereira@email.com</td>
+                    <td>(31) 9876-5432</td>
+                    <td>Belo Horizonte</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Ana Costa</td>
+                    <td>ana.costa@email.com</td>
+                    <td>(41) 4567-8910</td>
+                    <td>Curitiba</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Lucas Lima</td>
+                    <td>lucas.lima@email.com</td>
+                    <td>(51) 7891-2345</td>
+                    <td>Porto Alegre</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
