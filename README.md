@@ -18,10 +18,6 @@ A tabela inclui as seguintes colunas:
 - **Telefone**: Número de contato do cliente.
 - **Cidade**: Localização do cliente.
 
-## Captura de Tela
-
-![Captura de Tela](https://via.placeholder.com/800x400)
-
 ## Como usar
 
 1. Clone este repositório:
